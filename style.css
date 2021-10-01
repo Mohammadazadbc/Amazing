@@ -1,0 +1,166 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://wallpaper.dog/large/10775317.png');
+}
+
+main{
+    position: absolute;
+    width: 1000px;
+    height: 700px;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:skyblue;
+    display: none
+    
+}
+main.desactive{
+    display: flex;
+}
+
+.newStar{
+    width: 76.7px;
+    height: 60px;
+    font-size: 1.rem;
+    background-color: blanchedalmond;
+    
+}
+
+.statsorder{
+   background-image: url('https://pbs.twimg.com/media/DIjEfhXXoAAmTlC.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.dotborder{
+    background-image: url('https://p0.pikist.com/photos/700/479/paved-road-road-alley-paving-stones-away-cobblestones-thumbnail.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+.charctare {
+    background-image: url('https://live.staticflickr.com/3781/12534939045_0bdbf1ba3e_w.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+
+}
+.charIcon{
+    background-image: url('https://img.icons8.com/ios-filled/50/000000/courage.png');
+}
+
+
+
+.castle{
+    background-image: url('https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/Castle_qgjlkh.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.section2{
+    position: absolute;
+    width: 1000px;
+    height: 330px;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: none;
+    
+
+}
+.section2.active{
+    display: flex;
+}
+
+.starsl2{
+    width: 45px;
+    height: 45px;
+    font-size: 1.rem;
+    background-color: blanchedalmond;
+
+}
+
+
+.stars-bc{
+    background-image: url('https://pbs.twimg.com/media/DIjEfhXXoAAmTlC.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.dot-bg{
+background-color: skyblue;
+}
+
+.castle{
+    background-image: url('https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/Castle_qgjlkh.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.charctare2 {
+    background-image: url('https://live.staticflickr.com/3781/12534939045_0bdbf1ba3e_w.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .charIcon2{
+     background-color: white;
+    background-image: url('https://img.icons8.com/ios-filled/50/000000/courage.png');
+}
+
+.btn{
+    position: relative;
+    top: 8%;
+    left: 40%;
+    padding: 8px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn2{
+    position: fixed;
+    top: 8%;
+    left: 60%;
+    padding: 8px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+
+
+
